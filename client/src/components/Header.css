@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #5e4b8b; /* Consistent purple background */
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 20px; /* Add margin-bottom to create space between the header and all posts container */
+}
+
+.title-container {
+  background-color: #5e4b8b; /* Matching purple background */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main-title-link {
+  font-size: 36px; /* Larger size for prominence */
+  color: #004d00; /* Dark green */
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Enhanced glowing effect */
+  font-family: 'Times New Roman', serif; /* Latin-themed typography */
+  text-decoration: none;
+}
+
+.main-title-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link, .auth-link, button {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px; /* Slightly larger for better readability */
+  text-shadow: 0 0 8px #00ff00, 0 0 16px #00ff00; /* Glowing effect similar to the title */
+}
+
+.nav-link:hover, .auth-link:hover, button:hover {
+  background-color: #7467a0; /* Subtle change for hover */
+}
+
+.auth-links {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  right: 20px;
+  top: 20px; /* Adjusted to better align with the rest of the header */
+}
+
+.top-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the nav links */
+  padding: 0;
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #5e4b8b;
+    color: rgb(253, 253, 253);
+    padding: 10px 0;
+    margin-bottom: 20px;
+    width: 100%; /* Add this line to make the header extend to the full width */
+  }
+
+  .title-container {
+    background-color: #5e4b8b;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  /* Rest of the code remains the same */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#username {
+  margin-top: 10px;
+}
+
+.button-profile {
+  background-color: #5e4b8b;
+}
+
+.button-profile:hover {
+  background-color: #7467a0;
+}

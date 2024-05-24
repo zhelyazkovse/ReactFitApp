@@ -1,0 +1,42 @@
+.content-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content-page form {
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.content-page input, .content-page textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #5e4b8b;
+    border-radius: 4px;
+}
+
+.content-page textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.content-page button {
+    padding: 10px 20px;
+    background-color: #5e4b8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content-page button:active {
+    background-color: #7467a0;
+}

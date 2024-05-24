@@ -1,0 +1,55 @@
+.admin-view {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Create two columns */
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #b7aec9;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #998eb9;
+}
+
+.user-info {
+    grid-column: 1 / span 2; /* Make user info span both columns */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    grid-column: 1 / span 2; /* Align actions to both columns */
+}
+
+.user-actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.user-actions button:hover {
+    background-color: #ddd;
+}

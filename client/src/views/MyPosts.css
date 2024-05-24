@@ -1,0 +1,40 @@
+.my-posts-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #333; /* Dark gray background */
+    font-family: 'Arial', sans-serif;
+    color: white; /* Light text color for better contrast */
+}
+
+.my-posts-page h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.post {
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #5e4b8b; /* Purple border color */
+    border-radius: 10px;
+    background-color: #333; /* Dark background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    color: white; /* Light text color */
+    max-width: 600px; /* Make the post narrower */
+    width: 100%;
+    word-wrap: break-word; /* Ensure long words break and wrap */
+    overflow-wrap: break-word; /* Ensure long words break and wrap */
+    word-break: break-word; /* Ensure long words break and wrap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

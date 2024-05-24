@@ -1,0 +1,117 @@
+.single-post-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.single-post-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.single-post-content {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.single-post-author-date {
+    font-size: 0.875rem;
+    color: #888;
+    margin-bottom: 1.5rem;
+}
+
+.single-post-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.single-post-actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.single-post-actions button:hover {
+    background-color: #0056b3;
+}
+
+.comment-section {
+    margin-top: 2rem;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.submit-comment, .submit-edit {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-comment:hover, .submit-edit:hover {
+    background-color: #0056b3;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comment {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment button:hover {
+    background-color: #0056b3;
+}
+
+.edit-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
